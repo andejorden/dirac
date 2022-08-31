@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,400i,700,700i,900,900i|Roboto:300,400,400i,700,700i&display=swap');
+
+/* Do The Text Responsive! */
+
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 992px) {
+    html {
+      font-size: 18px;
+    }
+  }
+  
+  h1, .h1 {
+    font-size: 2.48832rem;
+  }
+  
+  h2, .h2 {
+    font-size: 2.0736rem;
+  }
+  
+  h3, .h3 {
+    font-size: 1.728rem;
+  }
+  
+  h4, .h4 {
+    font-size: 1.44rem;
+  }
+  
+  h5, .h5 {
+    font-size: 1.2rem;
+  }
+  
+  h6, .h6 {
+    font-size: 1rem;
+  }
+  
+  .display-4 {
+    font-size: 3.48832rem;
+  }
+  
+  .display-3 {
+    font-size: 4.185984rem;
+  }
+  
+  .display-2 {
+    font-size: 5.0231808rem;
+  }
+  
+  .display-1 {
+    font-size: 6.02781696rem;
+  }
+  
+  @media (min-width: 768px) {
+    h1, .h1 {
+      font-size: 2.48832rem;
+    }
+  
+    h2, .h2 {
+      font-size: 2.0736rem;
+    }
+  
+    h3, .h3 {
+      font-size: 1.728rem;
+    }
+  
+    h4, .h4 {
+      font-size: 1.44rem;
+    }
+  
+    h5, .h5 {
+      font-size: 1.2rem;
+    }
+  
+    h6, .h6 {
+      font-size: 1rem;
+    }
+  }
+
+
+/* Start the Rock */
+
+body{
+    font: normal 1.2rem/150% 'Roboto', sans-serif;
+    color: #5e4b52;
+    border-top: 5px solid #3faeca;
+}
+
+header h1 img{
+    width: 100%;
+    max-width: 360px;
+}
+
+h1, h2, h3, h4, h5{
+    color: #3faeca;
+}
+
+article h2{
+    font-family: 'Muli', sans-serif;
+    color: #ffffff;
+    background-image: linear-gradient(to left, #ffd900, #ff5e00);
+    padding-left: 0.3em;
+    border-radius: 5px;
+}
+
+article:nth-child(odd) h2{
+    background-image: linear-gradient(to left, #3faeca, #5e4b52);
+}
+
+article#serv details summary h3{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+article#serv details summary{
+    cursor: pointer;
+    color: #ff5e00;
+    outline: none;
+}
+
+footer h2{
+    color: #f2f2f2;
+}
+
+footer{
+    background-color: #5e4b52;
+    padding: 20px;
+    color: #b7c4cc;
+    font-size: medium;
+    margin-top: 2rem;
+}
+
+footer ul{
+    padding: 0 1em;
+    margin: 0;
+    display: inline-block;
+}
+
+footer ul li a, footer ul li a:hover{
+    color: #f2f2f2;
+}
